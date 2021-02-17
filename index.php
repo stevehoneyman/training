@@ -1,4 +1,5 @@
 <?php get_header(); ?>
-<p>this is index.php</p>
-<!-- add the code to display the header and footer, then push back up! -->
+
+<!-- add basic WP loop to the templates folder to get the title, content and featured image from the home page -->
+
 <?php get_footer(); ?>

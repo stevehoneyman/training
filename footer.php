@@ -1,2 +1,4 @@
-<p>this is footer.php</p>
-<p>Hannah Update</p>
+    </div><!-- close site-wrapper-->
+    <?php wp_footer(); ?>
+  </body>
+</html>
