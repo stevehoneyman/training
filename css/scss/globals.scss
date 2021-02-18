@@ -1,12 +1,18 @@
 /* globals
 ----------------------------------------------------------------------------- */
-#site-wrpper {
+#site-wrapper {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   background: #fff;
 }
 
-h1 {
-  color: red;
+img {
+  width: 100%;
+}
+
+.article-card {
+  background: pink;
+  padding: 10px;
+  margin: 10px 0;
 }
