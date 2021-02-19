@@ -1,8 +1,14 @@
 /* globals
 ----------------------------------------------------------------------------- */
-#site-wrpper {
+#site-wrapper {
   width: 100%;
   max-width: 1000px;
+  padding: 3rem 20px;
   margin: 0 auto;
   background: #fff;
+}
+
+h1,
+p {
+  margin-bottom: 1rem;
 }
