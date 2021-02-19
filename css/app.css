@@ -1,17 +1,24 @@
+<<<<<<< HEAD
 /* variables
 ----------------------------------------------------------------------------- */
 /* mixins
 ----------------------------------------------------------------------------- */
+=======
+>>>>>>> ea745bf9bdb6f521890a85289d4a61d82043c084
 /* globals
 ----------------------------------------------------------------------------- */
 #site-wrapper {
   width: 100%;
   max-width: 1000px;
+<<<<<<< HEAD
   padding: 3rem 20px;
+=======
+>>>>>>> ea745bf9bdb6f521890a85289d4a61d82043c084
   margin: 0 auto;
   background: #fff;
 }
 
+<<<<<<< HEAD
 h1,
 p {
   margin-bottom: 1rem;
@@ -57,4 +64,14 @@ img {
 ul,
 li {
   list-style-type: none;
+=======
+img {
+  width: 100%;
+}
+
+.article-card {
+  background: pink;
+  padding: 10px;
+  margin: 10px 0;
+>>>>>>> ea745bf9bdb6f521890a85289d4a61d82043c084
 }

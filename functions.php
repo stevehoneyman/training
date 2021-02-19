@@ -1,8 +1,10 @@
 <?php
 // add stylesheet(s)
 function set_theme_styles() {
-	wp_enqueue_style( 'main_stylesheet' , get_template_directory_uri() . '/css/app.css?v=' .time() );
+  wp_enqueue_style( 'style', get_stylesheet_uri() );
+  wp_enqueue_style( 'main_stylesheet' , get_template_directory_uri() . '/css/app.css?v=' .time() );
 }
+
 add_action('wp_enqueue_scripts', 'set_theme_styles');
 
 // add scripts
